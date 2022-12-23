@@ -24,6 +24,11 @@
     max-width: 360px;
     height: 80px;
 }
+.banner__button:hover {
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
 
 .banner__button {
     cursor: pointer;
@@ -40,11 +45,6 @@
     padding-bottom: 0.5rem;
 };
 
-.banner__button:hover {
-    color: #000;
-    background-color: #e6e6e6;
-    transition: all 0.2s;
-}
 
 .banner--fadebottom{
     height: 7.4rem;
