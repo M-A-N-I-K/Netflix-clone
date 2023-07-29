@@ -6,7 +6,6 @@ import requests from "../Components/Api/request"
 const Home = () => {
     return (
         <>
-
             <Banner />
             <Row title="Netflix Originals" fetchUrl={requests.fetchNetflixOriginals} isLargeRow />
             <Row title="Trending Now" fetchUrl={requests.fetchTrending} />
